@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# API Keys - IMPORTANT: Nu commitui API keys!
+test_api_key.py
+
+# Student 3 - Image downloads
+images/
+*.jpg
+*.png
+*.jpeg
+!placeholder.jpg
