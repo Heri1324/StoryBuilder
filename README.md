@@ -1,3 +1,7 @@
+# Student 1 – Student 1 (GUI și Managementul Poveștii)|
+
+
+
 # Student 2 – STT + TTS + Keywords (cum folosiți codul meu)
 
 ## Ce am eu în proiect
