@@ -1,5 +1,55 @@
-# Student 1 – Student 1 (GUI și Managementul Poveștii)|
+# 📖 About – StoryBuilder Project
 
+StoryBuilder este o aplicație interactivă pentru copii care permite construirea unei povești folosind **voce, imagini și redare audio**.  
+Utilizatorul spune o propoziție, aplicația o transcrie (Speech-to-Text), caută o imagine relevantă online, o afișează și apoi citește propoziția cu o voce sintetică (Text-to-Speech).
+
+Aplicația permite adăugarea succesivă de propoziții, rezultând o **poveste vizuală și audio**, cu istoric de imagini și text.
+
+Proiectul este structurat modular:
+- Student 1 – GUI și managementul aplicației  
+- Student 2 – STT, TTS și Keywords  
+- Student 3 – Image Search și procesare vizuală  
+
+
+# 🧩 Student 1 – GUI și Managementul Poveștii
+
+## Ce am eu în proiect
+
+Eu am fișierul: `student1_services.py`.
+
+În el există clasa `StoryBuilderApp`, care reprezintă **aplicația principală** și face legătura între toate componentele proiectului.
+
+Modulul Student 1 este responsabil de:
+1. Interfața grafică (Tkinter GUI)
+2. Managementul poveștii
+3. Controlul captării audio (Start / Stop)
+4. Integrarea completă Student 2 + Student 3
+
+
+## Ce face Student 1
+
+- Creează interfața grafică:
+  - zonă mare pentru afișarea imaginii curente  
+  - zonă text unde se construiește povestea  
+  - bandă cu imagini anterioare (gallery strip / thumbnails)  
+  - butoane de control (Start/Stop înregistrare, Citește povestea, Reset)
+
+- Gestionează povestea:
+  - salvează propozițiile spuse de utilizator  
+  - le afișează în timp real  
+  - permite citirea întregii povești folosind TTS  
+
+- Controlează captarea vocii:
+  - un click → începe înregistrarea  
+  - al doilea click → oprește înregistrarea și procesează propoziția  
+
+- Coordonează întreg fluxul aplicației:
+  - STT → keywords → image search → afișare → TTS  
+
+
+## Cum se rulează partea Student 1
+
+py student1_services.py
 
 
 # Student 2 – STT + TTS + Keywords (cum folosiți codul meu)
